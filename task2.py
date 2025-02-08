@@ -9,7 +9,7 @@ lbl0 = Label(window, text="The most popular news about Apple now", font=("Arial 
 lbl0.grid(column=0, row=0) 
 
 def clicked():   
-    key = "d240d317ee374bf4b1f19fec265a2427"
+    key = ""
 
     params = {
         'country': 'us',

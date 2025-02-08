@@ -23,7 +23,7 @@ def display_image_from_url(url):
     
     window.mainloop()
 
-key = "A46i1w8cY9Ob6eiyXsmNMIBK5oeZTT9sJV27iMsQ"
+key = ""
 response = requests.get(f"https://api.nasa.gov/planetary/apod?api_key={key}")
 result = response.json()
 

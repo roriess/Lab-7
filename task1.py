@@ -20,7 +20,7 @@ txt.grid(column=0, row=3)
 
 def clicked():   
     city_name = txt.get()
-    key = "dab973f7b489d6d71c5e519d318a5526"
+    key = ""
 
     response = requests.post(f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={key}&units=metric")
     result = json.loads(response.text)
